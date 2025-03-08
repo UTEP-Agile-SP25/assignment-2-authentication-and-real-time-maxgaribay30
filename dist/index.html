@@ -1,7 +1,27 @@
 <!DOCTYPE html>
-<body>
-    <head>
+<head>
+    <body>
+        <div id="greeting"></div>
+        <h1>Sign Up</h1>
+        <form id="signupForm">
+            <input type="text" id="firstName" placeholder="Enter First Name" required><br><br>
+            <input type="text" id="lastName" placeholder="Enter Last Name" required><br><br>
+            <input type="email" id="signupEmail" placeholder="Enter email" required><br><br>
+            <input type="password" id="signupPassword" placeholder="Enter password" required><br><br>
+            <input type="submit" value="Sign Up">
+        </form>
 
-    </head>
-    <script src="bundle.js"></script>
-</body>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="email" id="loginEmail" placeholder="Enter email" required><br><br>
+            <input type="password" id="loginPassword" placeholder="Enter password" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+
+        <h3>Logout</h3>
+        <form id="logoutForm">
+            <input type="submit" value="Logout">
+        </form>
+    </body>
+    <script src="index.bundle.js"></script>
+</head>
